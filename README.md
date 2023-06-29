@@ -2,7 +2,8 @@
 
 This focuses on implementing a Feistel cipher, a symmetric block cipher encryption framework, in both a high-level language and Hack Assembly.
 
-Description
+Description:
+
 In a Feistel cipher, the plaintext P is divided into two equal-sized parts, L0 and R0, where P = L0R0. A function F is applied to one half of the plaintext, combined with a key, and the result is XOR'd with the other half. This process is repeated for multiple rounds.
 To decrypt an encrypted message, the procedure is applied in reverse. The function F(A, B) = A ⊕ ¬B, and the keys are derived from a single 8-bit key K0.
 
