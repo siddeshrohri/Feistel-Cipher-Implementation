@@ -21,7 +21,7 @@ Task 3: Feistel Encryption Implementation
 
 Write a program in HACK assembly that implements the described Feistel encryption system. The initial key K0 should be stored in RAM[1], and the 16-bit plaintext should be stored in RAM[2]. The result of the encryption should be stored in RAM[0].
 
-Instructions
+Instructions:
 
 Implement the required programs in HACK assembly.
 Ensure proper documentation and comments in your code for clarity.
